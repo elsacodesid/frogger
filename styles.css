@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(0deg, rgba(9,180,241,1) 0%, rgba(117,15,119,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#time-left {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightgreen;
+}
+
+
+#result {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#instruction-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
+
+.grid {
+    border: 1px solid black;
+    background-color: white;
+    height: 360px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;  
+}
+
+.ending-block {
+    background-color: red;
+    align-items: center;
+    display: flex;
+
+}
+
+#finish-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+.log-left, 
+.log-right {
+    background-color: lightblue;
+
+}
+
+.car-left,
+.car-right {
+    background-color: lightgray;
+}
+
+.l1::before, 
+.l2::before,
+.l3::before {
+    content: "\1FAB5";
+}
+
+.l4,
+.l5 {
+    background-color: lightblue;
+}
+
+.c1::before {
+    content: "\1F68B";
+
+}
+
+.c2,
+.c3 {
+    background-color: lightgray;
+}
+
+.frog::before {
+    content: "\1F438";
+
+}
